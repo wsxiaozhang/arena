@@ -41,8 +41,8 @@ const (
 func NewDataListCommand() *cobra.Command {
 	var command = &cobra.Command{
 		Use:   "list",
-		Short: "list all the data volume.",
-
+		Short: "list all data volumes.",
+		Aliases: []string{"ls"},
 		Run: func(cmd *cobra.Command, args []string) {
 			util.SetLogLevel(logLevel)
 

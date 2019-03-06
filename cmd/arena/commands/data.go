@@ -22,7 +22,7 @@ var (
 	dataLong = `manage data volumes.
 
 Available Commands:
-  list,ls              List the data volumes.
+  list,ls              List all data volumes.
     `
 )
 
